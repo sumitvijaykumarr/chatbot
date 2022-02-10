@@ -1,6 +1,23 @@
 {
   "intents": [
     {
+      "tag": "introduction",
+      "patterns": [
+        "Who are you?",
+        "Who you?",
+        "What is your name?",
+        "Who is there?",
+        "Who is that?",
+        "Introduce yourself!"
+      ],
+      "responses": [
+        "Hi I'm Sam, your bot; how can I help?",
+        "Myself Sam, your bot; how can I help? ",
+        "It's Sam, your bot; how can I help?",
+        "Greetings. This is Sam, how can I help?"
+      ]
+    },
+    {
       "tag": "greeting",
       "patterns": [
         "Hi",

@@ -1,3 +1,5 @@
+import nltk
+# nltk.download('punkt')
 import numpy as np
 import random
 import json
